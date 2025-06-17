@@ -1,0 +1,15 @@
+{
+  "name": "Listener API (.NET 9) – Rider",  
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "listener",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "ms-dotnettools.csharp"
+  ],
+  "customizations": {
+    "jetbrains": {
+      "product": "rider"
+    }
+  }
+}
