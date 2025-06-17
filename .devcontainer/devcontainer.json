@@ -4,6 +4,7 @@
   "service": "listener",
   "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
+  "postStartCommand": "dotnet restore && dotnet run --project WebApplication1 --urls http://0.0.0.0:5000",
   "extensions": [
     "ms-dotnettools.csharp"
   ],
